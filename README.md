@@ -16,3 +16,9 @@ Steps to replicate the project:
   10. Save the world and code. 
   11. Select the 'ReatcngularArena' and add obstacles in the arena.
   12. Run the program.
+
+Path and waypoint
+![Waypoints and path](https://user-images.githubusercontent.com/67186743/145256554-c7b2b788-b2cc-4c06-9c72-147cd725b342.jpg)
+
+Video
+https://user-images.githubusercontent.com/67186743/145256630-14da3cae-e6fb-4a05-bee0-a9071f64c7a3.mp4
