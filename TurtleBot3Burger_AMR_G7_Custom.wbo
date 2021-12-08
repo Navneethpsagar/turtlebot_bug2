@@ -1,0 +1,22 @@
+#VRML_OBJ R2021b utf8
+TurtleBot3Burger {
+  translation 0.5 0 -1.83657e-06
+  rotation 0 1 0 1.5708
+  controller "turtle_bot_with_distance_and_angle"
+  extensionSlot [
+    Lidar {
+      translation 0 0.04 -0.03
+      horizontalResolution 181
+      fieldOfView 3.1416
+      numberOfLayers 1
+      minRange 0.04
+    }
+    GPS {
+      translation 0 0 -0.03
+      type "laser"
+    }
+    RobotisLds01 {
+      noise 0.0026
+    }
+  ]
+}

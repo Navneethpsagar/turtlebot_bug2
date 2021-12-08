@@ -1,0 +1,44 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 1 0 0 4.71238898038469
+  position 0.08549852783275194 4.144063062259044 -0.47926241923421103
+  follow "TurtleBot3Burger:LDS-01"
+  followType "None"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 5 5
+}
+WoodenBox {
+  translation 0.202947 0.1 -0.119223
+  rotation 0 1 0 -1.5708
+  name "wooden box(2)"
+  size 0.5 0.2 0.2
+}
+TurtleBot3Burger {
+  translation 0.5 0 -1.83657e-06
+  rotation 0 1 0 1.5708
+  controller "turtle_bot_with_distance_and_angle"
+  extensionSlot [
+    Lidar {
+      translation 0 0.04 -0.03
+      horizontalResolution 181
+      fieldOfView 3.1416
+      numberOfLayers 1
+      minRange 0.04
+    }
+    GPS {
+      translation 0 0 -0.03
+      type "laser"
+    }
+    RobotisLds01 {
+      noise 0.0026
+    }
+  ]
+}
